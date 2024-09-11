@@ -3,7 +3,7 @@ using namespace std;
 
 void findD(int n, int m) {
     int divisor;
-    for(int i=2; i<=max(n,m); i++) {
+    for(int i=1; i<=max(n,m); i++) {
         if(n%i==0 && m%i==0) {
             divisor = i;
         }
