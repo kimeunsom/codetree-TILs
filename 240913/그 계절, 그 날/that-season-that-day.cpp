@@ -34,11 +34,7 @@ bool isExist(int y, int m, int d) {
         }
     }
 
-    if(d>max_days) {
-        return false;
-    }
-
-    return true;
+    return d<=max_days;
 }
 
 int main() {
