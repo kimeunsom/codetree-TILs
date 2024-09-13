@@ -27,7 +27,7 @@ bool isExist(int y, int m, int d) {
     }
 
     if(m==2) {
-        if(leapYear) {
+        if(leapYear(y)) {
             max_days = 29;
         } else {
             max_days = 28;
