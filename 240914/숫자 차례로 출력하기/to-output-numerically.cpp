@@ -2,13 +2,13 @@
 using namespace std;
 
 void p1(int n) {
-    if(--n>0) p1(n);
+    if(n>1) p1(n-1);
     cout << n << " ";
 }
 
-void p1(int n) {
-    cout << n-- << " ";
-    if(n>0) p1(n);
+void p2(int n) {
+    cout << n << " ";
+    if(n>1) p2(n-1);
 }
 
 int main() {
